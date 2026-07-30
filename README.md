@@ -66,7 +66,8 @@ List all materials, equipment and tools that you used.
 
 ### Base Enclosure & Sand-Top
 - *(Optional)* 5× [Cable Channel.stl](stl/Base%20Enclosure%20%26%20SandTop/Cable%20Channel.stl) 
-- [SandTop.stl](stl/Base%20Enclosure%20%26%20SandTop/SandTop.stl) - [Base Plate.stl](stl/Base%20Enclosure%20%26%20SandTop/Base%20Plate.stl) 
+- [SandTop.stl](stl/Base%20Enclosure%20%26%20SandTop/SandTop.stl) 
+- [Base Plate.stl](stl/Base%20Enclosure%20%26%20SandTop/Base%20Plate.stl) 
 - 2× [Enclosure Corner Holder (Motor).stl](stl/Base%20Enclosure%20%26%20SandTop/Enclosure%20Corner%20Holder%20(Motor).stl) 
 - 2× [Enclosure Corner Holder (No Motor).stl](stl/Base%20Enclosure%20%26%20SandTop/Enclosure%20Corner%20Holder%20(No%20Motor).stl) 
 
