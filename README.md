@@ -1,6 +1,6 @@
 # Sand A Sketch
 
-[Sand-A-Sketch Hero Shot](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/7b3ca9e36b72d740b66ece84b7ee0ffa8d913c48/Footage/Showcase%20Images/Hero%20Shot.png)
+![Sand A Sketch - Hero Shot](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/7b3ca9e36b72d740b66ece84b7ee0ffa8d913c48/Footage/Showcase%20Images/Hero%20Shot.png)
 
 The **Sand A Sketch** is a group project created for the university course Prototyping Interactive Objects (Summer 2026) at Hochschule RheinMain – University of Applied Sciences and Arts, Wiesbaden.
 
@@ -20,14 +20,8 @@ Below you will find the:
 
 you need to build your own Sand A Sketch.
 
-
-**"Hero-Shot"** - Make sure to display the final design of your prototype! Also add a small motivation: why is it fun and/or a good learning opportunity to build this.
-
 ## MATERIALS (BOM)
-
-What is needed to build it - typically called BOM "Bill-of-Materials". If possible provide orientatitive links (list local providers).
-
-- 1x Arduino Nano
+- 1x [Arduino Nano](https://store.arduino.cc/products/arduino-nano)
 - 1x Arduino Nano Power Cable
 - 1x Breadboard
 - Jumper Cables
@@ -40,7 +34,6 @@ What is needed to build it - typically called BOM "Bill-of-Materials". If possib
 - 2x metal rods - 3 mm x 150 mm
 - 2x metal rods - 3 mm x 200 mm
 - fine mechanics oil
-
 
 ## EQUIPMENT
 
@@ -94,8 +87,6 @@ What is needed to build it - typically called BOM "Bill-of-Materials". If possib
 [Sand-A-Sketch Code](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/7b3ca9e36b72d740b66ece84b7ee0ffa8d913c48/Code/SandASketch.ino)
 
 ## STEP BY STEP INSTRUCTIONS
-
-STEP BY STEP overview
 
 ### Step 1: 3D Printing
 
