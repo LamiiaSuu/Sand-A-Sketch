@@ -276,6 +276,8 @@ In this case you will likely need to **adjust the tension of the Timing Belt** a
 
 #### 2.8 Adding the magnet
 
+![Magnet Holder](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/24bcf68634965f47bb3cd8fd681d537ba56445d8/Footage/Showcase%20Images/Magnet%20Carriage2.jpg)
+
 You will need:
 - 1x assembled CoreXY
 - 1x [SandASketch_Magnet_Holder_Top.stl](stl/CoreXY/Individual/SandASketch_Magnet_Holder_Top.stl) 
