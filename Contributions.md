@@ -11,7 +11,7 @@
 
 ## Iris
 - Paper-Prototyp
-- 3D Design und Druck (CoreXY)
+- 3D Design und Druck (Spulen, Spacer und Stäbe)
 - Konfiguration der Hardware und Code geschrieben
 - Assemblen des Prototypen 
 - Fotos für die Dokumentation 
@@ -19,3 +19,9 @@
 
 
 ## Jacky
+- Project conception and design
+- Conceptualization, 3D modeling and 3D printing of the CoreXY system
+- Assembling the CoreXY & final protoyp
+- Taking pictures & videos for the documentation
+- Code cleanup
+- Documentation
