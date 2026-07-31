@@ -30,6 +30,8 @@ you need to build your own Sand A Sketch.
 What is needed to build it - typically called BOM "Bill-of-Materials". If possible provide orientatitive links (list local providers).
 
 - 1x Arduino Nano
+- 1x Breadboard
+- Jumper Cables
 - 2x 28BYJ-48 – 5V Stepper Motors
 - 1x Joystick
 - 1x Potentiometer
@@ -119,8 +121,8 @@ You will need:
 - 2x [SandASketch_No_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner.stl) 
 - 2x [SandASketch_No_Motor_Corner_Bar.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner_Bar.stl) 
 
-Put a drop of superglue into the holes of the corner piece and insert the bars as deep as possible.
-Wipe any excess glue and set aside to dry for a moment.
+1. Put a drop of **superglue** into the holes of the **No-Motor Corner** and insert the **bars** as deep as possible.
+2. Wipe any excess glue and set aside to dry for a moment.
 
 ------
 
@@ -154,7 +156,7 @@ First, assemble the **left CoreXY side** by referencing the **left image** above
 
 Now **repeat** these steps to assemble the **right CoreXY side** by referencing the **right image.**
 
-#### 2.3 Assemble the CoreXY Frame
+#### 2.3 Connect both CoreXY sides
 |  ![Assembled CoreXY - top down](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/e098be4b6adf1932239148d645a373529767d427/Footage/CoreXY/Assembly/Assembled%20CoreXY%20without%20motors%20or%20belts%20Top-Down.jpg)| ![Assembled CoreXY - Isometric](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/e098be4b6adf1932239148d645a373529767d427/Footage/CoreXY/Assembly/Assembled%20CoreXY%20without%20motors%20or%20belts%20Isometric%202.jpg) |
 |--|--|
 | Assembled CoreXY - top down | Assembled CoreXY - Isometric |
@@ -167,32 +169,68 @@ You will need:
 - 2x metal rods - 3 mm x 200 mm
 
 1. Take the **left CoreXY side**.
-2. Insert the **Side Bars** into the free ends of its **Motor Corner** and **No-Motor Corner**.
-3. Insert both **metal rods** into the holes of the **Side Slider**
+2. Insert the **Side Bars** into the holes of its **Motor Corner** and **No-Motor Corner**.
+3. Insert both **metal rods** into the holes of the **Side Slider**.
 4. Slide the **Magnet Holder Bottom** onto both metal rods.
-5. Take the **right CoreXY side**  and insert the free ends of the **Side Bars** and **metal rods** into it. 
+5. Take the **right CoreXY side** and insert the free ends of the **Side Bars** and **metal rods** into it. 
 
 **Tip**
-Step 5 can be a bit tricky alone. If possible, ask a second person to help you.
+Step 5 can be a bit tricky to do alone. If possible, ask a second person to help you.
 
 **Important** 
-Do **not** add the **Magnet Holder Top** onto the bottom yet.
+Do **not** attach the **Magnet Holder Top** onto the Magnet Holder bottom yet.
 
 Your CoreXY should now look as above. 
 
+#### 2.4 Inserting the Motors
+
+You will need:
+- 1x assembled CoreXY
+- 2x 28BYJ-48 – 5V Stepper Motors
+
+1. Insert a stepper motor into each **Motor Corner**.
+2. Press each motor firmly into place until it is fully seated.
+
+**Note**
+The fit is intentionally tight to keep the motors in place.
+
+#### 2.5 Installing the Timing Belt Pulleys
+
+![Timing Belt, Spools and Spacers](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/ddcefdb4e9fa1db9e31e2347c431e1ef7ad3952c/Footage/CoreXY/Parts/Belts%20&%20Pulleys.jpg)
+Timing Belt and components.
+Parts are labelled **1–4** and referenced in the steps below.
+
+You will need:
+- 1x assembled CoreXY with motors inserted
+- 2x [SandASketch_Spool.stl](stl/CoreXY/Individual/SandASketch_Spool.stl)
+- 4x [SandASketch_Spacer.stl](stl/CoreXY/Individual/SandASketch_Spacer.stl)
+- 1x [6mm timing belt & pieces](https://amzn.eu/d/0blO36EH)
+
+1. Take the two pulleys labelled **1** in the image above. Press one onto each stepper motor shaft and tighten the set screws. Your assembly should now look like the image below.
+![Motors with pulleys added](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/a57492a3f5d9106629386e935d5d9efe1acd5826/Footage/CoreXY/Parts/Belts%20%26%20Pulleys.jpg)
+2. Take the two pulleys labelled **2** and place one onto each **No-Motor Corner**.
+3. Place one **Spacer** (labelled **3**) on top of each pulley, then place the remaining two pulleys labelled **2** on top.
+4. Place one printed **Spool** (labelled **4**) onto each **Side Slider**.
+5. Place one **Spacer** on top of each printed spool, then place the remaining two printed spools on top.
+
+Your CoreXY should now look like this:
+|  ![CoreXY with Pulleys](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/a57492a3f5d9106629386e935d5d9efe1acd5826/Footage/CoreXY/Assembly/Assembled%20CoreXY%20with%20Pulleys.jpg)| ![CoreXY with Pulleys 2](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/a57492a3f5d9106629386e935d5d9efe1acd5826/Footage/CoreXY/Assembly/Assembled%20CoreXY%20with%20Pulleys2.jpg) |
+|--|--|
+CoreXY with pulleys *(magnet shown for illustration only)*
 
 
-6. Insert the strong magnet into the 3d-printed magnet carriage.
-7. Mount the magnet carriage onto the longer metal rods using the designated holes.
-8. Insert the remaining two steel rods into their respective holder pieces using the through holes.
-9. Now connect the magnet carriage rods to the holders from the previous step using the non-through hole.
-10. Insert the assembled carriage into the designated slots of the 3D-printed frame. Mind the orientation, the longer beams should be used for the sides with the metal rods inside the frame.
-11. Mount the four corner pulley assemblies onto the frame.
-12. Install both stepper motors into their designated mounts on two of the corner pieces.
-13. Route both timing belts according to the CoreXY belt layout. Make sure the belts are not twisted.
-14. Attach both belts to the magnetic carriage.
-15. Tension the belts until they are tight while ensuring the carriage still moves smoothly.
-16. Verify that the carriage can move freely across the entire drawing area without binding.
+
+8. Insert the strong magnet into the 3d-printed magnet carriage.
+9. Mount the magnet carriage onto the longer metal rods using the designated holes.
+10. Insert the remaining two steel rods into their respective holder pieces using the through holes.
+11. Now connect the magnet carriage rods to the holders from the previous step using the non-through hole.
+12. Insert the assembled carriage into the designated slots of the 3D-printed frame. Mind the orientation, the longer beams should be used for the sides with the metal rods inside the frame.
+13. Mount the four corner pulley assemblies onto the frame.
+14. Install both stepper motors into their designated mounts on two of the corner pieces.
+15. Route both timing belts according to the CoreXY belt layout. Make sure the belts are not twisted.
+16. Attach both belts to the magnetic carriage.
+17. Tension the belts until they are tight while ensuring the carriage still moves smoothly.
+18. Verify that the carriage can move freely across the entire drawing area without binding.
 
 ### Step 3: Assembling the enclosure
 1. Glue the corner holders into their respective indentations on the base. They have different designs and are made to only fit into their respective notches. Make sure it fits before gluing.
