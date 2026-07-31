@@ -84,7 +84,8 @@ you need to build your own Sand A Sketch.
 
 ## CODE
 
-[Sand-A-Sketch Code](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/7b3ca9e36b72d740b66ece84b7ee0ffa8d913c48/Code/SandASketch.ino)
+You can download the code here:
+[Sand A Sketch Code](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/7b3ca9e36b72d740b66ece84b7ee0ffa8d913c48/Code/SandASketch.ino)
 
 ## STEP BY STEP INSTRUCTIONS
 
