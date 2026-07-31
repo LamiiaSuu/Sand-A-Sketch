@@ -34,10 +34,10 @@ What is needed to build it - typically called BOM "Bill-of-Materials". If possib
 - 1x Joystick
 - 1x Potentiometer
 - 1x Cube Neodymium Magnet - 8 x 8 x 8 mm 
-- 1x Magnetic ball - 8mm
+- 1x Magnetic ball - 8 mm
 - 1x [6mm timing belt & pieces](https://amzn.eu/d/0blO36EH)
-- 2x metal rods - 3mm x 150mm
-- 2x metal rods - 3mm x 200mm
+- 2x metal rods - 3 mm x 150 mm
+- 2x metal rods - 3 mm x 200 mm
 
 
 ## EQUIPMENT
@@ -75,12 +75,12 @@ What is needed to build it - typically called BOM "Bill-of-Materials". If possib
 ### CoreXY 
 - 1x [SandASketch_Magnet_Holder_Bottom.stl](stl/CoreXY/Individual/SandASketch_Magnet_Holder_Bottom.stl) 
 - 1x [SandASketch_Magnet_Holder_Top.stl](stl/CoreXY/Individual/SandASketch_Magnet_Holder_Top.stl) 
-- 2× [SandASketch_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_Motor_Corner.stl) 
-- 2× [SandASketch_No_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner.stl) 
-- 2× [SandASketch_No_Motor_Corner_Bar.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner_Bar.stl) 
-- 2× [SandASketch_Side_Bar_150mm.stl](stl/CoreXY/Individual/SandASketch_Side_Bar_150mm.stl) 
-- 2× [SandASketch_Side_Bar_159mm.stl](stl/CoreXY/Individual/SandASketch_Side_Bar_159mm.stl) 
-- 2× [SandASketch_Side_Slider.stl](stl/CoreXY/Individual/SandASketch_Side_Slider.stl)
+- 2x [SandASketch_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_Motor_Corner.stl) 
+- 2x [SandASketch_No_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner.stl) 
+- 2x [SandASketch_No_Motor_Corner_Bar.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner_Bar.stl) 
+- 2x [SandASketch_Side_Bar_150mm.stl](stl/CoreXY/Individual/SandASketch_Side_Bar_150mm.stl) 
+- 2x [SandASketch_Side_Bar_159mm.stl](stl/CoreXY/Individual/SandASketch_Side_Bar_159mm.stl) 
+- 2x [SandASketch_Side_Slider.stl](stl/CoreXY/Individual/SandASketch_Side_Slider.stl)
 - 2x [SandASketch_Spool.stl](stl/CoreXY/Individual/SandASketch_Spool.stl)
 - 4x [SandASketch_Spacer.stl](stl/CoreXY/Individual/SandASketch_Spacer.stl)
 
@@ -113,10 +113,11 @@ STEP BY STEP overview
 #### 2.1 Assembling the no-motor corners
 
 ![Fully assembled No-Motor Corner](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/c5fae48a0650da7e26446a7d842f0664cf98b334/Footage/CoreXY/Assembly/SandASketch_No_Motor_Corner_Assembled.png)
+Fully assembled No-Motor Corner
 
 You will need:
-- 2× [SandASketch_No_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner.stl) 
-- 2× [SandASketch_No_Motor_Corner_Bar.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner_Bar.stl) 
+- 2x [SandASketch_No_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner.stl) 
+- 2x [SandASketch_No_Motor_Corner_Bar.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner_Bar.stl) 
 
 Put a drop of superglue into the holes of the corner piece and insert the bars as deep as possible.
 Wipe any excess glue and set aside to dry for a moment.
@@ -129,27 +130,55 @@ This video demonstrates the complete CoreXY assembly process. The written instru
 -----
 
 ![CoreXY Parts](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/88c9a46c79d2febe222aeb43452421c19e61a1b7/Footage/CoreXY/Parts/CoreXY%20Parts.jpg)
+CoreXY Parts
 
 #### 2.2 Assemble both CoreXY sides
-
 |![Left CoreXY side assembled](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/c8c95c7725ac2a1e4576768dde2822e6aed63f43/Footage/CoreXY/Assembly/CoreXY_Left_Side_Assembled.png)  | ![Right CoreXY side assembled](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/c8c95c7725ac2a1e4576768dde2822e6aed63f43/Footage/CoreXY/Assembly/CoreXY_Right_Side_Assembled.png) |
 |--|--|
 | Left CoreXY side | Right CoreXY side |
 
 You will need **for each side**:
-- 1× [SandASketch_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_Motor_Corner.stl) 
-- 1× [SandASketch_Side_Bar_150mm.stl](stl/CoreXY/Individual/SandASketch_Side_Bar_150mm.stl) 
-- 1× [SandASketch_Side_Slider.stl](stl/CoreXY/Individual/SandASketch_Side_Slider.stl)
+- 1x [SandASketch_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_Motor_Corner.stl) 
+- 1x [SandASketch_Side_Bar_150mm.stl](stl/CoreXY/Individual/SandASketch_Side_Bar_150mm.stl) 
+- 1x [SandASketch_Side_Slider.stl](stl/CoreXY/Individual/SandASketch_Side_Slider.stl)
 - 1x assembled No_Motor_Corner + Bar
-- 1x metal rod - 3mm x 150mm
+- 1x metal rod - 3 mm x 150 mm
 
-Follow these steps referencing the left
-1. Orient the **Motor Corner** as shown in the images above.
+First, assemble the **left CoreXY side** by referencing the **left image** above.
+
+1. Orient the **Motor Corner** as shown.
 2. Insert the **Side Bar** and **metal rod** into the upper arm of the corner.
-3. Slide the **Side Slider** onto the metal rod. Make sure the holes in its side point towards the middle, away from the bar.
-4. Orient the **No-Motor Corner** as shown in the images.
+3. Slide the **Side Slider** onto the metal rod. Make sure the holes on the side point towards the middle, away from the bar.
+4. Orient the **No-Motor Corner** as shown.
 5. Insert the free ends of the **Side Bar** and the **metal rod** into the **No-Motor Corner**.
 
+Now **repeat** these steps to assemble the **right CoreXY side** by referencing the **right image.**
+
+#### 2.3 Assemble the CoreXY Frame
+|  ![Assembled CoreXY - top down](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/e098be4b6adf1932239148d645a373529767d427/Footage/CoreXY/Assembly/Assembled%20CoreXY%20without%20motors%20or%20belts%20Top-Down.jpg)| ![Assembled CoreXY - Isometric](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/e098be4b6adf1932239148d645a373529767d427/Footage/CoreXY/Assembly/Assembled%20CoreXY%20without%20motors%20or%20belts%20Isometric%202.jpg) |
+|--|--|
+| Assembled CoreXY - top down | Assembled CoreXY - Isometric |
+
+You will need:
+- 1x fully assembled left CoreXY side
+- 1x fully assembled right CoreXY side
+- 2x [SandASketch_Side_Bar_159mm.stl](stl/CoreXY/Individual/SandASketch_Side_Bar_159mm.stl) 
+- 1x [SandASketch_Magnet_Holder_Bottom.stl](stl/CoreXY/Individual/SandASketch_Magnet_Holder_Bottom.stl) 
+- 2x metal rods - 3 mm x 200 mm
+
+1. Take the **left CoreXY side**.
+2. Insert the **Side Bars** into the free ends of its **Motor Corner** and **No-Motor Corner**.
+3. Insert both **metal rods** into the holes of the **Side Slider**
+4. Slide the **Magnet Holder Bottom** onto both metal rods.
+5. Take the **right CoreXY side**  and insert the free ends of the **Side Bars** and **metal rods** into it. 
+
+**Tip**
+Step 5 can be a bit tricky alone. If possible, ask a second person to help you.
+
+**Important** 
+Do **not** add the **Magnet Holder Top** onto the bottom yet.
+
+Your CoreXY should now look as above. 
 
 
 
