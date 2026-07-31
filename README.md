@@ -110,7 +110,9 @@ STEP BY STEP overview
 
 ### Step 2: Assembling the CoreXY System
 
-#### Assembling the no-motor corners
+#### 2.1 Assembling the no-motor corners
+
+![Fully assembled No-Motor Corner](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/c5fae48a0650da7e26446a7d842f0664cf98b334/Footage/CoreXY/Assembly/SandASketch_No_Motor_Corner_Assembled.png)
 
 You will need:
 - 2× [SandASketch_No_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner.stl) 
@@ -128,28 +130,40 @@ This video demonstrates the complete CoreXY assembly process. The written instru
 
 ![CoreXY Parts](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/88c9a46c79d2febe222aeb43452421c19e61a1b7/Footage/CoreXY/Parts/CoreXY%20Parts.jpg)
 
-#### Assembling CoreXY sides
+#### 2.2 Assemble both CoreXY sides
+
+|![Left CoreXY side assembled](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/2893ab0ffd162463d726ff53076c862b5134ce45/Footage/CoreXY/Assembly/CoreXY_Left_Side_Assembled.png)  | ![Right CoreXY side assembled](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/2893ab0ffd162463d726ff53076c862b5134ce45/Footage/CoreXY/Assembly/CoreXY_Right_Side_Assembled.png) |
+|--|--|
+| Left CoreXY side | Right CoreXY side |
+
+You will need **for each side**:
 - 1× [SandASketch_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_Motor_Corner.stl) 
 - 1× [SandASketch_Side_Bar_150mm.stl](stl/CoreXY/Individual/SandASketch_Side_Bar_150mm.stl) 
 - 1× [SandASketch_Side_Slider.stl](stl/CoreXY/Individual/SandASketch_Side_Slider.stl)
 - 1x assembled No_Motor_Corner + Bar
 - 1x metal rod - 3mm x 150mm
 
+Follow these steps referencing the left
+1. Orient the **Motor Corner** as shown in the images above.
+2. Insert the **Side Bar** and **metal rod** into the upper arm of the corner.
+3. Slide the **Side Slider** onto the metal rod. Make sure the holes in its side point towards the middle, away from the bar.
+4. Orient the **No-Motor Corner** as shown in the images.
+5. Insert the free ends of the **Side Bar** and the **metal rod** into the **No-Motor Corner**.
 
 
 
 
-2. Insert the strong magnet into the 3d-printed magnet carriage.
-3. Mount the magnet carriage onto the longer metal rods using the designated holes.
-4. Insert the remaining two steel rods into their respective holder pieces using the through holes.
-5. Now connect the magnet carriage rods to the holders from the previous step using the non-through hole.
-6. Insert the assembled carriage into the designated slots of the 3D-printed frame. Mind the orientation, the longer beams should be used for the sides with the metal rods inside the frame.
-7. Mount the four corner pulley assemblies onto the frame.
-8. Install both stepper motors into their designated mounts on two of the corner pieces.
-9. Route both timing belts according to the CoreXY belt layout. Make sure the belts are not twisted.
-10. Attach both belts to the magnetic carriage.
-11. Tension the belts until they are tight while ensuring the carriage still moves smoothly.
-12. Verify that the carriage can move freely across the entire drawing area without binding.
+6. Insert the strong magnet into the 3d-printed magnet carriage.
+7. Mount the magnet carriage onto the longer metal rods using the designated holes.
+8. Insert the remaining two steel rods into their respective holder pieces using the through holes.
+9. Now connect the magnet carriage rods to the holders from the previous step using the non-through hole.
+10. Insert the assembled carriage into the designated slots of the 3D-printed frame. Mind the orientation, the longer beams should be used for the sides with the metal rods inside the frame.
+11. Mount the four corner pulley assemblies onto the frame.
+12. Install both stepper motors into their designated mounts on two of the corner pieces.
+13. Route both timing belts according to the CoreXY belt layout. Make sure the belts are not twisted.
+14. Attach both belts to the magnetic carriage.
+15. Tension the belts until they are tight while ensuring the carriage still moves smoothly.
+16. Verify that the carriage can move freely across the entire drawing area without binding.
 
 ### Step 3: Assembling the enclosure
 1. Glue the corner holders into their respective indentations on the base. They have different designs and are made to only fit into their respective notches. Make sure it fits before gluing.
