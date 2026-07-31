@@ -29,22 +29,18 @@ you need to build your own Sand A Sketch.
 
 What is needed to build it - typically called BOM "Bill-of-Materials". If possible provide orientatitive links (list local providers).
 
-This works well as a table or bullet point list.
-
-- Arduino Nano
-- 2 stepper motors
-- Joystick
-- Potentiometer
-- Magnet
-- Magnetic ball
-- [6mm timing belt & pieces](https://amzn.eu/d/0blO36EH)
-- 2 (3mm x 200mm) metal rods 
-- 2 (3mm x 150mm) metal rods
+- 1x Arduino Nano
+- 2x 28BYJ-48 – 5V Stepper Motors
+- 1x Joystick
+- 1x Potentiometer
+- 1x Cube Neodymium Magnet - 8 x 8 x 8 mm 
+- 1x Magnetic ball - 8mm
+- 1x [6mm timing belt & pieces](https://amzn.eu/d/0blO36EH)
+- 2x metal rods - 3mm x 150mm
+- 2x metal rods - 3mm x 200mm
 
 
 ## EQUIPMENT
-
-List all materials, equipment and tools that you used.
 
 **Equipment**
 
@@ -58,7 +54,7 @@ List all materials, equipment and tools that you used.
 
 **Materials**
 
-- Plexiglas
+- Acrylic glass/Plexiglass
 - Thick carton
 - PLA filament
 
@@ -66,24 +62,27 @@ List all materials, equipment and tools that you used.
 
 ### Base Enclosure & Sand-Top
 - *(Optional)* 5× [Cable Channel.stl](stl/Base%20Enclosure%20%26%20SandTop/Cable%20Channel.stl) 
-- [SandTop.stl](stl/Base%20Enclosure%20%26%20SandTop/SandTop.stl) 
-- [Base Plate.stl](stl/Base%20Enclosure%20%26%20SandTop/Base%20Plate.stl) 
+- 1x [SandTop.stl](stl/Base%20Enclosure%20%26%20SandTop/SandTop.stl) 
+- 1x [Base Plate.stl](stl/Base%20Enclosure%20%26%20SandTop/Base%20Plate.stl) 
 - 2× [Enclosure Corner Holder (Motor).stl](stl/Base%20Enclosure%20%26%20SandTop/Enclosure%20Corner%20Holder%20(Motor).stl) 
 - 2× [Enclosure Corner Holder (No Motor).stl](stl/Base%20Enclosure%20%26%20SandTop/Enclosure%20Corner%20Holder%20(No%20Motor).stl) 
 
 ### Controls 
-- [Controller Holder Clip.stl](stl/Controls/Controller%20Holder%20Clip.stl) 
-- [Upper Controller Part.stl](stl/Controls/Upper%20Controller%20Part.stl) 
-- [Lower Controller Part (Base).stl](stl/Controls/Lower%20Controller%20Part%20(Base).stl) 
+- 1x [Controller Holder Clip.stl](stl/Controls/Controller%20Holder%20Clip.stl) 
+- 1x [Upper Controller Part.stl](stl/Controls/Upper%20Controller%20Part.stl) 
+- 1x [Lower Controller Part (Base).stl](stl/Controls/Lower%20Controller%20Part%20(Base).stl) 
 
 ### CoreXY 
-- [SandASketch_Magnet_Holder_Bottom.stl](stl/CoreXY/Individual/SandASketch_Magnet_Holder_Bottom.stl) 
-- [SandASketch_Magnet_Holder_Top.stl](stl/CoreXY/Individual/SandASketch_Magnet_Holder_Top.stl) 
+- 1x [SandASketch_Magnet_Holder_Bottom.stl](stl/CoreXY/Individual/SandASketch_Magnet_Holder_Bottom.stl) 
+- 1x [SandASketch_Magnet_Holder_Top.stl](stl/CoreXY/Individual/SandASketch_Magnet_Holder_Top.stl) 
 - 2× [SandASketch_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_Motor_Corner.stl) 
 - 2× [SandASketch_No_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner.stl) 
+- 2× [SandASketch_No_Motor_Corner_Bar.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner_Bar.stl) 
 - 2× [SandASketch_Side_Bar_150mm.stl](stl/CoreXY/Individual/SandASketch_Side_Bar_150mm.stl) 
 - 2× [SandASketch_Side_Bar_159mm.stl](stl/CoreXY/Individual/SandASketch_Side_Bar_159mm.stl) 
 - 2× [SandASketch_Side_Slider.stl](stl/CoreXY/Individual/SandASketch_Side_Slider.stl)
+- 2x [SandASketch_Spool.stl](stl/CoreXY/Individual/SandASketch_Spool.stl)
+- 4x [SandASketch_Spacer.stl](stl/CoreXY/Individual/SandASketch_Spacer.stl)
 
 ## CODE
 
@@ -95,53 +94,62 @@ STEP BY STEP overview
 
 ### Step 1: 3D Printing
 
-[Here](#fabrication-files) you will find all .stl-files for the 3d printed parts. 
+1. Download all STL files from the [Fabriction Files](#fabrication-files) section 
+2. Print all parts in the indicated quantities
 
-1. Download all .STL files.
-2. Print all components using PLA filament. (Supports are only required for CoreXY corners)
+**Recommended printer settings:**
+- material: PLA
+- layer height: 0.2 mm
+- infill: 15%
 
-- Recommended layer height: 0.2 mm
-- Recommended infill: 15%.
-
-#### **Print List**:
-
-##### Base Enclosure & Sand-Top
-- (optional) 5x "Cable Channel.stl"
-- 1x "SandTop.stl"
-- 1x "Base Plate.stl"
-- 2x "Enclosure Corner Holder (Motor).stl"
-- 2x "Enclosure Corner Holder (No Motor).stl"
-
-##### Controls 
-- 1x "Controller Holder Clip.stl"
-- 1x "Upper Controller Part.stl"
-- 1x "Lower Controller Part (Base).stl"
-
-##### CoreXY 
-- 1x "SandASketch_Magnet_Holder_Bottom.stl"
-- 1x "SandASketch_Magnet_Holder_Top.stl"
-- 2x "SandASketch_Motor_Corner.stl"
-- 2x "SandASketch_No_Motor_Corner.stl"
-- 2x "SandASketch_Side_Bar_150mm.stl"
-- 2x "SandASketch_Side_Bar_159mm.stl"
-- 2x "SandASketch_Side_Slider.stl"
-
+**Supports:** 
+- **Required:** 
+	- SandASketch_Spool.stl
+	- SandASketch_Spacer.stl
+- **All other parts** were printed successfully without supports on our printer. Depending on your printer and print settings, you may still want to enable supports for overhangs if necessary.
 
 ### Step 2: Assembling the CoreXY System
 
-***NOTE: There is an assembly video under '\Sand-A-Sketch\Footage\Assembly Videos'***
+#### Assembling the no-motor corners
 
-1. Insert the strong magnet into the 3d-printed magnet carriage.
-2. Mount the magnet carriage onto the longer metal rods using the designated holes.
-3. Insert the remaining two steel rods into their respective holder pieces using the through holes.
-4. Now connect the magnet carriage rods to the holders from the previous step using the non-through hole.
-5. Insert the assembled carriage into the designated slots of the 3D-printed frame. Mind the orientation, the longer beams should be used for the sides with the metal rods inside the frame.
-6. Mount the four corner pulley assemblies onto the frame.
-7. Install both stepper motors into their designated mounts on two of the corner pieces.
-8. Route both timing belts according to the CoreXY belt layout. Make sure the belts are not twisted.
-9. Attach both belts to the magnetic carriage.
-10. Tension the belts until they are tight while ensuring the carriage still moves smoothly.
-11. Verify that the carriage can move freely across the entire drawing area without binding.
+You will need:
+- 2× [SandASketch_No_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner.stl) 
+- 2× [SandASketch_No_Motor_Corner_Bar.stl](stl/CoreXY/Individual/SandASketch_No_Motor_Corner_Bar.stl) 
+
+Put a drop of superglue into the holes of the corner piece and insert the bars as deep as possible.
+Wipe any excess glue and set aside to dry for a moment.
+
+------
+
+[Sand-A-Sketch - CoreXY Assembly Video](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/593e7d0ba17ddbd5ef25c9bec1d4cd940d22d459/Footage/Assembly%20Videos/CoreXY%20Assembly.mp4)
+This video demonstrates the complete CoreXY assembly process. The written instructions below correspond to the same assembly.
+
+-----
+
+![CoreXY Parts](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/88c9a46c79d2febe222aeb43452421c19e61a1b7/Footage/CoreXY/Parts/CoreXY%20Parts.jpg)
+
+#### Assembling CoreXY sides
+- 1× [SandASketch_Motor_Corner.stl](stl/CoreXY/Individual/SandASketch_Motor_Corner.stl) 
+- 1× [SandASketch_Side_Bar_150mm.stl](stl/CoreXY/Individual/SandASketch_Side_Bar_150mm.stl) 
+- 1× [SandASketch_Side_Slider.stl](stl/CoreXY/Individual/SandASketch_Side_Slider.stl)
+- 1x assembled No_Motor_Corner + Bar
+- 1x metal rod - 3mm x 150mm
+
+
+
+
+
+2. Insert the strong magnet into the 3d-printed magnet carriage.
+3. Mount the magnet carriage onto the longer metal rods using the designated holes.
+4. Insert the remaining two steel rods into their respective holder pieces using the through holes.
+5. Now connect the magnet carriage rods to the holders from the previous step using the non-through hole.
+6. Insert the assembled carriage into the designated slots of the 3D-printed frame. Mind the orientation, the longer beams should be used for the sides with the metal rods inside the frame.
+7. Mount the four corner pulley assemblies onto the frame.
+8. Install both stepper motors into their designated mounts on two of the corner pieces.
+9. Route both timing belts according to the CoreXY belt layout. Make sure the belts are not twisted.
+10. Attach both belts to the magnetic carriage.
+11. Tension the belts until they are tight while ensuring the carriage still moves smoothly.
+12. Verify that the carriage can move freely across the entire drawing area without binding.
 
 ### Step 3: Assembling the enclosure
 1. Glue the corner holders into their respective indentations on the base. They have different designs and are made to only fit into their respective notches. Make sure it fits before gluing.
@@ -201,4 +209,4 @@ delay(1000); // wait for a second
 
 Attribution — ShareAlike CC BY-SA 
 
-This interactive object and accompanying tutorial has been designed by Robert Bothfeld, Iris Henkel and Jaqueline Huth during the course Prototyping Interactive Objects (Summer 2026) at Hochschule RheinMain – University of Applied Sciences and Arts, Wiesbaden.
+This interactive object and accompanying tutorial has been designed by Robert Bothfeld, Iris Henkel and Jaqueline Huth during the course Prototyping Interactive Objects (Summer 2026) at Hochschule RheinMain – University of Applied Sciences and Arts, Wiesbaden.
