@@ -20,6 +20,14 @@ Below you will find the:
 
 you need to build your own Sand A Sketch.
 
+### Demo Videos
+
+Drawing a...
+- [bag](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/6cb06aaf5f8eaca17e64170e79de1ecc5a618b9c/Footage/Showcase%20Videos/Bag.mp4)
+- [heart](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/6cb06aaf5f8eaca17e64170e79de1ecc5a618b9c/Footage/Showcase%20Videos/Heart.mp4)
+- [house](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/6cb06aaf5f8eaca17e64170e79de1ecc5a618b9c/Footage/Showcase%20Videos/House.mp4)
+
+
 ## MATERIALS (BOM)
 - 1x [Arduino Nano](https://store.arduino.cc/products/arduino-nano)
 - 1x Arduino Nano Power Cable
@@ -59,11 +67,11 @@ you need to build your own Sand A Sketch.
 ## FABRICATION FILES
 
 ### Base Enclosure & Sand-Top
-- *(Optional)* 5× [Cable Channel.stl](stl/Base%20Enclosure%20%26%20SandTop/Cable%20Channel.stl) 
 - 1x [SandTop.stl](stl/Base%20Enclosure%20%26%20SandTop/SandTop.stl) 
 - 1x [Base Plate.stl](stl/Base%20Enclosure%20%26%20SandTop/Base%20Plate.stl) 
 - 2x [Enclosure Corner Holder (Motor).stl](stl/Base%20Enclosure%20%26%20SandTop/Enclosure%20Corner%20Holder%20(Motor).stl) 
 - 2x [Enclosure Corner Holder (No Motor).stl](stl/Base%20Enclosure%20%26%20SandTop/Enclosure%20Corner%20Holder%20(No%20Motor).stl) 
+- *(Optional)* 5× [Cable Channel.stl](stl/Base%20Enclosure%20%26%20SandTop/Cable%20Channel.stl) 
 
 ### Controls 
 - 1x [Controller Holder Clip.stl](stl/Controls/Controller%20Holder%20Clip.stl) 
@@ -192,7 +200,7 @@ You will need:
 **Note**
 The fit is intentionally tight to keep the motors in place.
 
-#### 2.5 Installing the Timing Belt Pulleys
+#### 2.5 Placing the Timing Belt Pulleys
 
 ![Timing Belt, Spools and Spacers](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/a57492a3f5d9106629386e935d5d9efe1acd5826/Footage/CoreXY/Parts/Belts%20%26%20Pulleys.jpg)
 Timing Belt and components.
@@ -227,19 +235,40 @@ You will need:
 - scissors
 - superglue
 
-Refernce for the belt installment: [Manual CoreXY Mechanism by DrRonny on Thingiverse](https://www.thingiverse.com/thing:4167459)  
+Refernce:  
+[Manual CoreXY Mechanism by DrRonny on Thingiverse](https://www.thingiverse.com/thing:4167459)  
 
-1. Place the CoreXY in front of you with the Motor Corners close to you.
-2. Take one end of the **Timing Belt** and carefully glue it towards the top of the inside closest to you of the **Magnet Holder Bottom**. The teeth of the belt should be showing away from you.
+1. Place the CoreXY in front of you with the Motor Corners closest to you.
+
+**Belt 1:**
+
+2. Take the end of the **Timing Belt** and carefully glue it towards the top of the inside closest to you of the **Magnet Holder Bottom**. The teeth of the belt should be showing away from you/the motors.
+3. Route the belt around the pulleys exactly as shown in the refernce. 
+4. Cut the belt with 2-3 cm of ease.
+
+**Belt 2:**
+
+5. Take the end **Timing Belt** and carefully glue it towards the bottom of the inside furthest away from you of the **Magnet Holder Bottom**. The teeth of the belt should be in the same direction as **Belt 1**.
+6. Route the belt around the pulleys exactly as shown in the refernce. 
+7. Cut the belt with 2-3 cm of ease.
+
+**Tensioning:**
+
+8. Pull one belts taut, but not too tight. The Side Slider should **not** be pulled towards the inside of the CoreXY.
+9. Use superglue to glue it right beside its other end.
+10. Repeat for the other belt .
+11. Wait for the glue to fully dry.
 
 #### 2.7 Checking tension
 
 - 1x assembled CoreXY with motors, pulleys & timing belt
 - fine mechanics oil
+- scissors
 
 1. Aplly some fine mechanics oil to all metal rods
 2. Test if the **Side Sliders** move smoothly and the two **metal rods** holding the  **Magnet Holder Bottom** are straight. 
 3. Test if the **Magnet Holder Bottom** slides smoothly.
+4. Cut the excess Timing Belt off.
 
 **Important**
 If the metal rods are not straight the CoreXY will **not** work correctly.
@@ -259,7 +288,8 @@ You have finished assembling the CoreXY!
 
 ### Step 3: Assembling the Base Enclosure
 
-IMAGE
+![Base Enclosure with Corner Holders](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/6cb06aaf5f8eaca17e64170e79de1ecc5a618b9c/Footage/Enclosure%20&%20SandTop/Enclosure%20Base%20Plate%20with%20Corner%20Holders%20installed%20Isometric.jpg)
+Base Enclosure with Corner Holders
 
 You will need:
 - 1x assembled CoreXY
@@ -278,6 +308,11 @@ Make sure not to glue the CoreXY into place, this way it can still be taken out 
 
 ### Step 4: Assembling the Controls
 
+| ![Controller parts](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/950725174d556ea8362970a9bd2da8ccc3edf0fa/Footage/Controller/Controller%203D-Printed%20Parts.jpg) | ![Assembled controller](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/950725174d556ea8362970a9bd2da8ccc3edf0fa/Footage/Controller/Assembled%20Controller.jpg) |
+|--|--|
+| Controller Parts | Assembled controller |
+
+
 You will need:
 - 1x assembled CoreXY with enclosure
 - 1x [Controller Holder Clip.stl](stl/Controls/Controller%20Holder%20Clip.stl) 
@@ -289,13 +324,18 @@ You will need:
 
 1. Install the **Holder Clip** into the **Lower Controller Part**.
 2. Put **jumper cables** onto the **Joystick** and **Potentiometer**.
-3. Place the **Potentiometer** into the left indentation and the **Joystick** into the right indentation of the **Lower Controller Part** with the jumper cables going towards the Holder Clip.
+3. Place the **Potentiometer** into the left indentation and the **Joystick** into the right indentation of the **Lower Controller Part** with the jumper cables going towards the Holder Clip. Like this:
+![Placement in Controller](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/950725174d556ea8362970a9bd2da8ccc3edf0fa/Footage/Controller/Disassembled%20Controller.jpg)
+
 4. Pull the free end of the **jumper cables** through the hole of the **Holder Clip**.
 5. Press the **Upper Controller Part** onto the **Lower Controller Part** until it clicks into place.
 6. Hang the **Holder Clip** onto the **Side Bar** of the CoreXY between both motors.
 
 
 ### Step 5: Assembling the Sand-Top
+
+![Sand-Top with cardboard](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/6cb06aaf5f8eaca17e64170e79de1ecc5a618b9c/Footage/Enclosure%20&%20SandTop/Carton%20glued%20into%20SandTop.jpg)
+Sand-Top with cardboard
 
 You will need:
 - 1x [SandTop.stl](stl/Base%20Enclosure%20%26%20SandTop/SandTop.stl) 
@@ -313,6 +353,9 @@ You will need:
 Put this to the side for now.
 
 ### Step 6: Wiring
+
+![Wiring Diagram](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/d723adf54325dd6d9a1a2566c7abda9210eca9b4/Footage/Circuit.png)
+Wiring Diagram
 
 You will need:
 - 1x assembled CoreXY with enclosure & controls
@@ -336,6 +379,11 @@ You can use some **Cable Channels** to secure your **jumper cables**:
 
 **Important**
 Always double **check** your components **datasheets** when wiring. Accidentally swapping ground and volt can damage your components.
+
+| ![Wiring - Middle](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/950725174d556ea8362970a9bd2da8ccc3edf0fa/Footage/Showcase%20Images/Sand-A-Sketch%20without%20SandTop%20Top-Down.jpg) | ![Wiring - controller](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/950725174d556ea8362970a9bd2da8ccc3edf0fa/Footage/Showcase%20Images/Sand-A-Sketch%20without%20SandTop%20Controller.jpg) |
+|--|--|
+Finished wiring with cable channels.
+
 
 ### Step 7: Code
 
