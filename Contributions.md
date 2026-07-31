@@ -11,7 +11,7 @@
 
 ## Iris
 - Paper-Prototyp
-- 3D Design und Druck
+- 3D Design und Druck (CoreXY)
 - Konfiguration der Hardware und Code geschrieben
 - Assemblen des Prototypen 
 - Fotos für die Dokumentation 
