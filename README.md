@@ -132,7 +132,7 @@ This video demonstrates the complete CoreXY assembly process. The written instru
 
 #### 2.2 Assemble both CoreXY sides
 
-|![Left CoreXY side assembled](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/2893ab0ffd162463d726ff53076c862b5134ce45/Footage/CoreXY/Assembly/CoreXY_Left_Side_Assembled.png)  | ![Right CoreXY side assembled](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/2893ab0ffd162463d726ff53076c862b5134ce45/Footage/CoreXY/Assembly/CoreXY_Right_Side_Assembled.png) |
+|![Left CoreXY side assembled](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/c8c95c7725ac2a1e4576768dde2822e6aed63f43/Footage/CoreXY/Assembly/CoreXY_Left_Side_Assembled.png)  | ![Right CoreXY side assembled](https://github.com/LamiiaSuu/Sand-A-Sketch/blob/c8c95c7725ac2a1e4576768dde2822e6aed63f43/Footage/CoreXY/Assembly/CoreXY_Right_Side_Assembled.png) |
 |--|--|
 | Left CoreXY side | Right CoreXY side |
 
